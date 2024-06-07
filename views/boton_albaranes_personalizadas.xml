@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="invoice_report_menu" model="ir.actions.report">
+            <field name="name">Albaran 1</field>
+            <field name="model">stock.picking</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">albaranes_personalizados.report_albaranes_personalizadas</field>
+            <field name="report_file">albaranes_personalizados.report_albaranes_personalizadas</field>
+            <field name="binding_model_id" ref="stock.model_stock_picking"/>
+            <field name="binding_type">report</field>
+        </record>
+    </data>
+</odoo>
